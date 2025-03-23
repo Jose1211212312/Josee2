@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ubícanos - Walmart Más Cercano</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #0062A1;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-box {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .search-box label {
+      font-size: 1.1em;
+    }
+
+    .search-box input[type="text"],
+    .search-box input[type="submit"] {
+      padding: 10px;
+      font-size: 1em;
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .search-box input[type="submit"] {
+      background-color: #0062A1;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    .search-box input[type="submit"]:hover {
+      background-color: #004b82;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #ddd;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ubícanos</h1>
+    <p>Encuentra el Walmart más cercano a tu ubicación.</p>
+  </header>
+
+  <div class="container">
+    <h2>¿Dónde encontrar el Walmart más cercano?</h2>
+    <p>Ingresa tu ciudad o dirección para comenzar la búsqueda.</p>
+
+    <div class="search-box">
+      <label for="location">Ingresa tu ubicación:</label>
+      <input type="text" id="location" name="location" placeholder="Ciudad o dirección" required>
+      <input type="submit" value="Buscar Walmart Cercano">
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Walmart. Todos los derechos reservados.</p>
+    <p><a href="https://www.walmart.com.mx">Visita nuestra página oficial</a></p>
+  </footer>
+
+</body>
+</html>
